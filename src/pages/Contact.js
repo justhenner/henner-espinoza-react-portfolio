@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function Contact() {
   return (
     <div>
@@ -18,5 +19,5 @@ export default function Contact() {
         rhoncus. Etiam vel condimentum magna, quis tempor nulla.
       </p>
     </div>
-  );
+  )
 }
