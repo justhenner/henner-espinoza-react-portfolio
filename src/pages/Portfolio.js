@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../components/Project';
+import Project from '../Project';
 const projects = [
 
 {
@@ -8,6 +8,7 @@ const projects = [
   description: 'Full Stack',
   deployedLink: 'hhttp://yoga-rx.herokuapp.com/ttps://bullet-journal.herokuapp.com/',
   repoLink: 'https://github.com/justhenner/yoga-RX',
+  image: require('../../src/assets/yogaRxSnippet'),
 },
 {
   id: 2,
