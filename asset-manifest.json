@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/justhenner.github.io/henner-espinoza-react-portfolio/static/css/main.cedabf5a.css",
-    "main.js": "/justhenner.github.io/henner-espinoza-react-portfolio/static/js/main.5e7e161b.js",
-    "static/js/787.42e8ccf3.chunk.js": "/justhenner.github.io/henner-espinoza-react-portfolio/static/js/787.42e8ccf3.chunk.js",
-    "static/media/hee_creative_headshot.jpg": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/hee_creative_headshot.fb3b6dcdb6ad3b143575.jpg",
-    "static/media/yogaRxSnippet.png": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/yogaRxSnippet.f56f64e1073215abd09b.png",
-    "static/media/hobbiestSnippet.png": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/hobbiestSnippet.52e978a283938bc4af50.png",
-    "static/media/hennerEspinozaResume.pdf": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/hennerEspinozaResume.ef594d32ddd6f9ad582e.pdf",
-    "static/media/readingIsFunSnippet.png": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/readingIsFunSnippet.bb839175e37eb00d9e33.png",
-    "index.html": "/justhenner.github.io/henner-espinoza-react-portfolio/index.html",
-    "main.cedabf5a.css.map": "/justhenner.github.io/henner-espinoza-react-portfolio/static/css/main.cedabf5a.css.map",
-    "main.5e7e161b.js.map": "/justhenner.github.io/henner-espinoza-react-portfolio/static/js/main.5e7e161b.js.map",
-    "787.42e8ccf3.chunk.js.map": "/justhenner.github.io/henner-espinoza-react-portfolio/static/js/787.42e8ccf3.chunk.js.map"
+    "main.css": "/justhenner.github.io/static/css/main.cedabf5a.css",
+    "main.js": "/justhenner.github.io/static/js/main.e9bbcc5d.js",
+    "static/js/787.42e8ccf3.chunk.js": "/justhenner.github.io/static/js/787.42e8ccf3.chunk.js",
+    "static/media/hee_creative_headshot.jpg": "/justhenner.github.io/static/media/hee_creative_headshot.fb3b6dcdb6ad3b143575.jpg",
+    "static/media/yogaRxSnippet.png": "/justhenner.github.io/static/media/yogaRxSnippet.f56f64e1073215abd09b.png",
+    "static/media/hobbiestSnippet.png": "/justhenner.github.io/static/media/hobbiestSnippet.52e978a283938bc4af50.png",
+    "static/media/hennerEspinozaResume.pdf": "/justhenner.github.io/static/media/hennerEspinozaResume.ef594d32ddd6f9ad582e.pdf",
+    "static/media/readingIsFunSnippet.png": "/justhenner.github.io/static/media/readingIsFunSnippet.bb839175e37eb00d9e33.png",
+    "index.html": "/justhenner.github.io/index.html",
+    "main.cedabf5a.css.map": "/justhenner.github.io/static/css/main.cedabf5a.css.map",
+    "main.e9bbcc5d.js.map": "/justhenner.github.io/static/js/main.e9bbcc5d.js.map",
+    "787.42e8ccf3.chunk.js.map": "/justhenner.github.io/static/js/787.42e8ccf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cedabf5a.css",
-    "static/js/main.5e7e161b.js"
+    "static/js/main.e9bbcc5d.js"
   ]
 }
