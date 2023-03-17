@@ -16,9 +16,9 @@ function Project({ projects }) {
                             </div>
                     </div>
                 </div>
-            ))}
+            ))};
         </div>
-    )
-}
+    );
+};
 
 export default Project;
