@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/justhenner.github.io/henner-espinoza-react-portfolio/static/css/main.345ec4e7.css",
+    "main.js": "/justhenner.github.io/henner-espinoza-react-portfolio/static/js/main.b2c18c1d.js",
+    "static/media/hee_creative_headshot.jpg": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/hee_creative_headshot.fb3b6dcdb6ad3b143575.jpg",
+    "static/media/yogaRxSnippet.png": "/justhenner.github.io/henner-espinoza-react-portfolio/static/media/yogaRxSnippet.f56f64e1073215abd09b.png",
+    "index.html": "/justhenner.github.io/henner-espinoza-react-portfolio/index.html",
+    "main.345ec4e7.css.map": "/justhenner.github.io/henner-espinoza-react-portfolio/static/css/main.345ec4e7.css.map",
+    "main.b2c18c1d.js.map": "/justhenner.github.io/henner-espinoza-react-portfolio/static/js/main.b2c18c1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.345ec4e7.css",
+    "static/js/main.b2c18c1d.js"
+  ]
+}
