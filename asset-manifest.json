@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/henner-espinoza-react-portfolio/static/css/main.cedabf5a.css",
-    "main.js": "/henner-espinoza-react-portfolio/static/js/main.7458f5e6.js",
+    "main.js": "/henner-espinoza-react-portfolio/static/js/main.c99d0c42.js",
     "static/js/787.42e8ccf3.chunk.js": "/henner-espinoza-react-portfolio/static/js/787.42e8ccf3.chunk.js",
     "static/media/hee_creative_headshot.jpg": "/henner-espinoza-react-portfolio/static/media/hee_creative_headshot.fb3b6dcdb6ad3b143575.jpg",
     "static/media/yogaRxSnippet.png": "/henner-espinoza-react-portfolio/static/media/yogaRxSnippet.f56f64e1073215abd09b.png",
@@ -10,11 +10,11 @@
     "static/media/readingIsFunSnippet.png": "/henner-espinoza-react-portfolio/static/media/readingIsFunSnippet.bb839175e37eb00d9e33.png",
     "index.html": "/henner-espinoza-react-portfolio/index.html",
     "main.cedabf5a.css.map": "/henner-espinoza-react-portfolio/static/css/main.cedabf5a.css.map",
-    "main.7458f5e6.js.map": "/henner-espinoza-react-portfolio/static/js/main.7458f5e6.js.map",
+    "main.c99d0c42.js.map": "/henner-espinoza-react-portfolio/static/js/main.c99d0c42.js.map",
     "787.42e8ccf3.chunk.js.map": "/henner-espinoza-react-portfolio/static/js/787.42e8ccf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cedabf5a.css",
-    "static/js/main.7458f5e6.js"
+    "static/js/main.c99d0c42.js"
   ]
 }
