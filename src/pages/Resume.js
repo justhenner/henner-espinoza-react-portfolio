@@ -16,7 +16,7 @@ function Resume() {
         <h4>Front-end</h4>
         <ul>
           {frontEnd.map(item => (
-            <li>(item)</li>
+            <li>{item}</li>
           ))}
         </ul>
     </div>
