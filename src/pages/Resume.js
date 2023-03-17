@@ -7,7 +7,7 @@ function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <a href={ require('../../assets/hennerEspinozaResume.pdf')} download='HennerEspinoza'>
+      <a href={ require('../assets/hennerEspinozaResume.pdf')} download='HennerEspinoza'>
         Download Resume
       </a>
       <h3>Proficiencies</h3>
@@ -32,4 +32,4 @@ function Resume() {
 </div>
   )
 }
-export default Resume
+export default Resume;

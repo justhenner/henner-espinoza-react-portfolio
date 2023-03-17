@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../assets/hee_creative_headshot.jpg';
+import headshot from '../assets/hee_creative_headshot.jpg';
 
 export default function AboutMe() {
   return (

@@ -11,13 +11,13 @@ function Navigation() {
           <NavLink className={currentPage === 'About' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/henner-espinoza-react-portfolio/">About Me</NavLink>
         </li>
         <li onClick={() => setPage('Portfolio')} >
-          <NavLink className={currentPage === 'Portfolio' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/react-Portfolio/">Portfolio</NavLink>
+          <NavLink className={currentPage === 'Portfolio' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/Portfolio/">Portfolio</NavLink>
         </li>
         <li onClick={() => setPage('Contact')} >
-          <NavLink className={currentPage === 'Contact' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/react-Contact/">Contact</NavLink>
+          <NavLink className={currentPage === 'Contact' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/Contact/">Contact</NavLink>
         </li>
         <li onClick={() => setPage('Resume')} >
-          <NavLink className={currentPage === 'Resume' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/react-Resume/">Resume</NavLink>
+          <NavLink className={currentPage === 'Resume' ? 'nav-item p-2 active' : 'nav-item p-2 non'}to="/Resume/">Resume</NavLink>
         </li>
       </ul>
     </div>
