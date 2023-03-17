@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../Project';
+import Project from '../components/Project';
 const projects = [
 
 {
@@ -8,7 +8,7 @@ const projects = [
   description: 'Full Stack',
   deployedLink: 'hhttp://yoga-rx.herokuapp.com/ttps://bullet-journal.herokuapp.com/',
   repoLink: 'https://github.com/justhenner/yoga-RX',
-  image: require('../../src/assets/yogaRxSnippet'),
+  image: require('../assets/yogaRxSnippet.png'),
 },
 {
   id: 2,
@@ -16,13 +16,15 @@ const projects = [
   description: 'Front End',
   deployedLink: 'https://justhenner.github.io/reading-is-fun/',
   repoLink: 'https://github.com/justhenner/reading-is-fun',
+  image: require('../assets/readingIsFunSnippet.png'),
 },
 {
   id: 3,
   name: 'Hobbist Place on Earth',
   description: "Full Stack",
-  deployedLink: 'https://github.com/j-pohahau5/Hobbist-Place-on-Earth',
+  deployedLink: 'https://hobbiest-place-ons-earth.herokuapp.com/',
   repoLink: 'https://github.com/j-pohahau5/Hobbist-Place-on-Earth',
+  image: require('../assets/hobbiestSnippet.png'),
 },
 
 ]
