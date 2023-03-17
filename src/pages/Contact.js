@@ -1,23 +1,43 @@
-import React from 'react'; 
+import React from 'react';
+import { useForm } from "react-hook-form";
 
 
-export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  )
+function Contact() {
+    const { register, handleSubmit, formState: { errors } } = useForm(
+       { mode: "onBlur"}
+    );
+    const onSubmit = data => console.log(data);
+    console.log(errors);
+    return (
+        <div>
+            <h2>Contact</h2>
+            <form onSubmit={handleSubmit(onSubmit)}>
+                <div className='mb-3'>
+                    <input id='first' className='form-control' type="text" placeholder="First name" {...register("firstName", { required: true, maxLength: 20 })} />
+                    {errors.firstName && <p role="alert">Max of 20 characters</p>}
+                </div>
+
+                <div className='mb-3'>
+                    <input id='last' className='form-control' type="text" placeholder="Last Name" {...register("lastName", { required: true, maxLength: 20 })} />
+                    {errors.lastName && <p role="alert">Max of 20 characters</p>}
+                </div>
+
+
+                <div className='mb-3'>
+                    <input id='email' className='form-control' type="text" placeholder="Email" {...register("email", { 
+                        required: true,
+                        pattern: /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/
+                        })} />
+                    {errors.email && <p role="alert">Invalid email</p>}
+                </div>
+                <div className='mb-3'>
+                    <textarea id='message' className='form-control' placeholder="Message" {...register("message", { required: true, maxLength: 300 })} />
+                    {errors.message && <p role="alert">This section is required</p>}
+                </div>
+                <input type="submit" />
+            </form>
+        </div>
+    )
 }
+
+export default Contact;
